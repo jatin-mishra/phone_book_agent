@@ -1,0 +1,11 @@
+{
+    "name": "get_phone_number",
+    "description": "Fetch a person's phone number",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "name": {"type": "string", "description" : "name of the person"}
+        },
+        "required": ["name"]
+    }
+}
